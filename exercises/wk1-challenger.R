@@ -5,9 +5,13 @@
 
 # Install Applined Linear Regression library named alr3: install.packages("PACKAGE_NAME", dependencies=TRUE)
 
+# Install the markdown library using the same syntax
+
 # Load rCharts library:library(LIBRARY_NAME)
 
 # Load al3 library
+
+# Load the markdown library
 
 # Load in data frame named "challeng": data(DATA_FRAME_NAME)
 # Variable descriptions live at http://www.stat.cmu.edu/~roeder/stat707/=data/=data/data/Rlibraries/alr3/html/challeng.html
