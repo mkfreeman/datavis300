@@ -2,7 +2,13 @@
 # I've written out the syntax of each command following the task, and you should replace ALL_CAPS_WORDS with your variable names
 
 # Install the rChart library: install.packages("PACKAGE_NAME", dependencies=TRUE)
-install.packages("rCharts", dependencies=TRUE)
+# install.packages("rCharts", dependencies=TRUE)
+
+# New Install Instructions for R versions 3.1.0 and higher
+install.packages("devtools", dependencies=TRUE)
+library(devtools)
+install.packages("base64enc")
+install_github("ramnathv/rCharts@dev")
 
 # Install Applined Linear Regression library named alr3: install.packages("PACKAGE_NAME", dependencies=TRUE)
 install.packages("alr3", dependencies=TRUE)
@@ -58,3 +64,10 @@ myPlot$chart(showLegend=FALSE)
 
 # Publish your chart to the web: myPlot$publish('CHART_NAME', host='rpubs')
 myPlot$publish('Challenger', host="rpubs")
+
+# ERROR on Publish
+Error in readBin(conn, what = "raw", n = contentLength) : 
+  invalid 'n' argument
+In addition: Warning messages:
+1: invalid uid value replaced by that for user 'nobody' 
+2: invalid gid value replaced by that for user 'nobody'
