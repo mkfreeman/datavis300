@@ -65,9 +65,10 @@ myPlot$chart(showLegend=FALSE)
 # Publish your chart to the web: myPlot$publish('CHART_NAME', host='rpubs')
 myPlot$publish('Challenger', host="rpubs")
 
-# ERROR on Publish
-Error in readBin(conn, what = "raw", n = contentLength) : 
-  invalid 'n' argument
-In addition: Warning messages:
-1: invalid uid value replaced by that for user 'nobody' 
-2: invalid gid value replaced by that for user 'nobody'
+# ERROR on Publish -- If you receive this error, try signing up for an rpubs account at https://rpubs.com/ *(you may be prompted to do this from R)
+
+# Error in readBin(conn, what = "raw", n = contentLength) : 
+#   invalid 'n' argument
+# In addition: Warning messages:
+# 1: invalid uid value replaced by that for user 'nobody' 
+# 2: invalid gid value replaced by that for user 'nobody'
