@@ -19,10 +19,10 @@
   # Calculate the cumulative sum of the winnings using the 'cumsum' command
   
   
-  # Create a variable "trails" from 1 to SIZE that tracks the index of the trial using the 'seq' command
+  # Create a variable "trials" from 1 to SIZE that tracks the index of the trial using the 'seq' command
   
   
-  # Calculate the average value of the bet after N trails
+  # Calculate the average value of the bet after N trials
   
   
   # Return the value vector you created
