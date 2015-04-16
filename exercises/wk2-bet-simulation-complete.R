@@ -22,10 +22,10 @@ simulateData <- function(pr=.5, prize=1000,size=100) {
   # Calculate the cumulative sum of the winnings using the 'cumsum' command
   totalWinnings <- cumsum(winners)
   
-  # Create a variable "trails" from 1 to SIZE that tracks the index of the trial using the 'seq' command
+  # Create a variable "trials" from 1 to SIZE that tracks the index of the trial using the 'seq' command
   trials <- seq(1,size)
   
-  # Calculate the average value of the bet after N trails
+  # Calculate the average value of the bet after N trials
   values <- totalWinnings/trials
   
   
